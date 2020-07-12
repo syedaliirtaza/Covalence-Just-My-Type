@@ -1,3 +1,5 @@
+#check game demo at
+https://github.com/syedaliirtaza/Covalence-Just-My-Type.git
 # Just My Type
 Covalence
 
