@@ -77,6 +77,7 @@ $(document).keypress(function(e){
   //for the end of current sentence and end of letter
 
   if(letterNum === currentSentence.length){
+    $('#yellow-block').css('left', '0');
     sentenceNum++;
     currentSentence = sentences[sentenceNum];
     $('#sentence').text(currentSentence);
@@ -113,14 +114,14 @@ $(document).keypress(function(e){
       currentLetter = currentSentence.charAt(letterNum);
       $('#target-letter').text(currentLetter);
       $('#feedback').empty();
-      $('#yellow-block').css('left', '+=17.5px');
+      $('#yellow-block').css('left', '+=17.5');
     }
   } else {
     //if its not the last letter of the sentence then move on to the next letter 
     currentLetter = currentSentence.charAt(letterNum);
     $('#target-letter').text(currentLetter);
 
-    $('#yellow-block').css('left', '+=17.5px');
+    $('#yellow-block').css('left', '+=17.5');
   }
 });
 
