@@ -1,5 +1,5 @@
-#check game demo at
-https://github.com/syedaliirtaza/Covalence-Just-My-Type.git
+<h1>check game demo at</h1>
+https://syedaliirtaza.github.io/Covalence-Just-My-Type/
 # Just My Type
 Covalence
 
